@@ -10,25 +10,23 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body id="grid-container">
     <header class="mario">
       <h1>Mario Pest Control</h1>
-      <img
-        src="https://www.allcitycanvas.com/wp-content/uploads/2019/03/Last-Su%CC%81per-Mario-Bros-HORIZONTAL.jpg"
-        height="300px"
-        width="1500px"
-      />
+      <div class="header-photo">
+        <img
+          src="https://www.allcitycanvas.com/wp-content/uploads/2019/03/Last-Su%CC%81per-Mario-Bros-HORIZONTAL.jpg"
+        />
+      </div>
     </header>
     <main>
       <div class="words">
         <p>
           Princess Peach has a huge infestation of Goombas, Bob-ombs, and
           Cheep-cheeps, and has commissioned Mario to take care of her pest
-          problem.
-        </p>
-        <p>
-          Mario did the job, but he is having trouble keep track of how many he
-          has caught and has asked you to help keep track of his mission.
+          problem. Mario did the job, but he is having trouble keep track of how
+          many he has caught and has asked you to help keep track of his
+          mission.
         </p>
       </div>
       <div>
@@ -37,23 +35,20 @@
           <ul>
             <li>
               <img
-              src=https://tse4.mm.bing.net/th?id=OIP.G2xoMCdGe0dSTuqsFp0niwHaFj&pid=Api&P=0&w=209&h=158
+              src=https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/6753/200638-goomba3d.jpg
               width="50px" alt=""> Goombas: 5 Coins
             </li>
             <br />
             <li>
               <img
-              src=https://tse3.mm.bing.net/th?id=OIP.NX3-6C_THqdMKCuBkB237QHaFj&pid=Api&P=0&w=237&h=179
+              src=https://vignette.wikia.nocookie.net/nintendo/images/8/86/Bob-omb_%28MKWii%29.png/revision/latest?cb=20120819225302&path-prefix=en
               width="50px" alt=""> Bob-ombs: 7 Coins
             </li>
             <br />
             <li>
               <img
-                src="https://tse1.mm.bing.net/th?id=OIP.REggQw2Tof1dB2CKhX22awHaG5&pid=Api&P=0&w=177&h=166"
-                width="50px"
-                alt=""
-              />
-              Cheep-cheeps: 11 Coins
+              src=https://vignette.wikia.nocookie.net/nintendo/images/e/e3/Cheep_Cheep.png/revision/latest?cb=20150705215213&path-prefix=en
+              width="50px" alt=""/> Cheep-cheeps: 11 Coins
             </li>
           </ul>
         </div>
@@ -61,12 +56,12 @@
       <div>
         <h3>Monsters Caught:</h3>
         <form id="monstersForm">
-          <label>How many Goombas?</label>
-          <input name="goombas" type="number" />
-          <label>How many Bob-ombs?</label>
-          <input name="bobombs" type="number" />
-          <label>How many Cheep-cheeps?</label>
-          <input name="cheepcheeps" type="number" />
+          <label>How many Goombas?</label><br />
+          <input name="goombas" type="number" /><br />
+          <label>How many Bob-ombs?</label><br />
+          <input name="bobombs" type="number" /><br />
+          <label>How many Cheep-cheeps?</label><br />
+          <input name="cheepcheeps" type="number" /><br />
           <button type="submit">Submit</button>
         </form>
       </div>
